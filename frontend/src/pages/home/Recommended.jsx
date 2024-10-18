@@ -1,5 +1,5 @@
 import {useEffect, useState} from "react";
-import {Navigation} from "swiper/modules";
+import {Navigation, Pagination} from "swiper/modules";
 import {Swiper, SwiperSlide} from "swiper/react";
 import {BookCard} from "../books/BookCard.jsx";
 
@@ -35,7 +35,7 @@ export const Recommended = () => {
                     },
                 }}
                 navigation={true}
-                modules={[Navigation]}
+                modules={[Navigation, Pagination]}
                 className="mySwiper"
             >
 
