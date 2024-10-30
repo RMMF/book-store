@@ -103,7 +103,6 @@ export const CheckoutPage = () => {
                                                     currentUser?.email
                                                 }
                                                 placeholder="email@domain.com"
-                                                placeholder="email@domain.com"
                                             />
                                         </div>
                                         <div className="md:col-span-5">
