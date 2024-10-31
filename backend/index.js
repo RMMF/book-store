@@ -1,5 +1,3 @@
-// password: X8jie0HmVBMKJYnd
-
 const express = require('express')
 const app = express()
 const port = 3000
